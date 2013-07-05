@@ -3,6 +3,7 @@
 
     <string name="app_name">DoNow</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="title_location">Location</string>
+    <string name="title_tag">Tags</string>
 
 </resources>
