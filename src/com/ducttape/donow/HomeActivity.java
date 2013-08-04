@@ -1,6 +1,5 @@
 package com.ducttape.donow;
 
-import android.app.ActionBar;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
@@ -16,7 +15,7 @@ public class HomeActivity extends FragmentActivity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.layout_home);
-	    
+			    
 		// ViewPager and its adapters use support library
 		// fragments, so use getSupportFragmentManager.
 		mHomePagerAdapter = new HomePagerAdapter(getSupportFragmentManager());
